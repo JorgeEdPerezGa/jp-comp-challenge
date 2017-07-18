@@ -1,0 +1,226 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body{
+  display: flex;
+}
+
+img{
+  width: auto;
+  display: block;
+  margin-left:
+}
+
+.batman-logo{
+  display: block;
+  color: #DEFFEC;
+  font-size: 25px;
+  font-weight: normal;
+  margin-right: auto;
+  padding-left: 23px;
+  margin-bottom: 20px;
+}
+
+.description{
+  display: block;
+  text-align: left;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  padding-right: 20px;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #D6D6D6;
+}
+
+.store, .contact{
+  height: 30px;
+  background: none;
+  border: 2px solid #929497;
+  width: 100px;
+  margin: 2px;
+  display: inline-block;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.icon{
+  display: inline-block;
+  flex-direction: center;
+  align-items: center;
+  margin-right: -15px;
+  width:20px;
+}
+
+/*button{
+
+display: flex;
+display: inline-block;
+align-content: center;
+justify-content: center;
+}*/
+
+.icon-text-store{
+  margin-left: -10px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  margin-right: auto;
+}
+
+.left-container{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top{
+  width: 100%;
+  display: flex;
+}
+
+.middle{
+  width: 100%;
+  display: flex;
+}
+
+.bottom{
+  width: 100%;
+  display: flex;
+}
+
+
+.header{
+  width: 66.6%;
+  height: 33.4vh;
+  background: #2D2C2D;
+}
+
+.header, .box1, .box2, .box3, .box4, .box5, .box6, .box7{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box2, .box3, .box4, .box5, .box6, .box7{
+  width: 33.3%;
+  height: 33.3vh;
+  /*height: 33vh;*/
+  background: #2D2C2D;
+}
+
+.box1{
+  background: #494949;
+  width: 33.3%;
+  height: 33.4vh;
+}
+
+.box2{
+  background: #6D7F57;
+
+}
+
+.box3{
+  background: #475E5C;
+}
+
+.box4{
+  background: #AA6887;
+}
+
+.box5{
+  background: #745875;
+}
+
+.box6{
+  background: #455863;
+}
+
+.box7{
+  background: #506654;
+}
+
+.name{
+  color: white;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+
+.right-container{
+  display: flex;
+  background-image: url(imagery/gotham.svg);
+  width: 40%;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.foto{
+  /*visibility: hidden;*/
+  display: none;
+}
+
+
+.dots{
+  display: inline-block;
+  margin-left: auto;
+  width: 100px;
+  margin-top: -1400px;
+}
+
+
+
+.left-arrow{
+width: 30px;
+margin-left: 10px;
+}
+
+.right-arrow{
+  width: 30px;
+  margin-right: 10px;
+
+}
+
+@media(max-width:900px) {
+  .foto {
+    visibility: visible;
+    display: inline-block;
+    width: 99.9vw;
+    margin-bottom: -5px;
+  }
+
+  .right-container{
+    background-image: none;
+    width: 100%;
+  }
+
+  .left-container{
+    width:100%;
+  }
+
+  .header,
+  .middle,
+  .bottom {
+      /*height: 33vh;*/
+  }
+}
