@@ -32,7 +32,7 @@ img{
   padding-left: 23px;
   padding-right: 20px;
   font-weight: lighter;
-  font-size: 13px;
+  font-size: 14px;
   color: #D6D6D6;
 }
 
@@ -40,32 +40,35 @@ img{
   height: 30px;
   background: none;
   border: 2px solid #929497;
-  width: 100px;
+  width: 110px;
   margin: 2px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   color: #FFFFFF;
   cursor: pointer;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-right: 10px;
+}
 
+.contact{
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
 .icon{
   display: inline-block;
   flex-direction: center;
   align-items: center;
-  margin-right: -15px;
+  margin-right: 7px;
+  margin-left: 5px;
   width:20px;
 }
 
-/*button{
-
-display: flex;
-display: inline-block;
-align-content: center;
-justify-content: center;
-}*/
+.icon-two{
+  margin-right: -14px;
+}
 
 .icon-text-store{
   margin-left: -10px;
@@ -171,7 +174,8 @@ justify-content: center;
   background-position: top center;
   height: 100vh;
   align-items: center;
-  justify-content: space-between;
+  margin-left: -5px;
+  /*justify-content: space-between;*/
 }
 
 
@@ -182,13 +186,17 @@ justify-content: center;
 
 
 .dots{
-  display: inline-block;
-  margin-left: auto;
-  width: 100px;
-  margin-top: -1400px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  max-width: 100px;
 }
 
-
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 150%;
+}
 
 .left-arrow{
 width: 30px;
@@ -202,16 +210,21 @@ margin-left: 10px;
 }
 
 @media(max-width:900px) {
+  body {
+    flex-direction: column;
+  }
+
   .foto {
     visibility: visible;
-    display: inline-block;
+    display: flex;
     width: 99.9vw;
     margin-bottom: -5px;
   }
 
   .right-container{
-    background-image: none;
-    width: 100%;
+    display: none;
+    /*background-image: none;*/
+    /*width: 100%;*/
   }
 
   .left-container{

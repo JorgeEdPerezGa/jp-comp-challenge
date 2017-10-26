@@ -1,4 +1,5 @@
-# jp-comp-challenge
+# jepg-comp-challenge-1
 
-For this project I used various tools I have learned before. Also, I created all of my images, from start to end, in illustrator.
-I have had an easier time with css on past projects than I did with this one. I learned a lot about flexbox in my pairings.
+In this static challenge I used various tools I have learned through this module. 
+Also, I created my own icons and background image, from start to end, in illustrator.
+I have had an easier time in other projects with CSS, but this one was a bit more challenging. 
