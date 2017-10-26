@@ -1,3 +1,5 @@
+https://jorgeedperezga.github.io/jp-comp-challenge/
+
 # jepg-comp-challenge-1
 
 In this static challenge I used various tools I have learned through this module. 
